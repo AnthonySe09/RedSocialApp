@@ -1,6 +1,6 @@
 import React from "react";
 
-function StatusBox() {
+export default function StatusBox() {
   return (
     <div className="w3-row-padding">
         <div className="w3-col m12">
@@ -17,5 +17,4 @@ function StatusBox() {
     </div>
   );
 }
-
-export default StatusBox;
+  

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Post({ avatar, time, name, text, images }) {
+export default function Post({ avatar, time, name, text, images }) {
   return (
     <div className="w3-container w3-card w3-white w3-round w3-margin"><br />
       <img src={avatar} alt="Avatar" className="w3-left w3-circle w3-margin-right" style={{ width: "60px" }} />
@@ -26,5 +26,3 @@ function Post({ avatar, time, name, text, images }) {
     </div>
   );
 }
-
-export default Post;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Profile() {
+export default function Profile() {
   return (
     <div className="w3-card w3-round w3-white">
       <div className="w3-container">
@@ -16,5 +16,3 @@ function Profile() {
     </div>
   );
 }
-
-export default Profile;

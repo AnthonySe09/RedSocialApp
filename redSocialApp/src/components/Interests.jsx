@@ -1,6 +1,6 @@
 import React from "react";
 
-function Interests() {
+export default function Interests() {
   return (
     <div className="w3-card w3-round w3-white w3-hide-small">
       <div className="w3-container">
@@ -23,4 +23,4 @@ function Interests() {
   );
 }
 
-export default Interests;
+

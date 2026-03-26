@@ -1,6 +1,6 @@
 import React from "react";
 
-function RightColumn() {
+export default function RightColumn() {
   return (
     <div className="w3-col m2">
       <div className="w3-card w3-round w3-white w3-center">
@@ -46,5 +46,3 @@ function RightColumn() {
     </div>
   );
 }
-
-export default RightColumn;

@@ -2,16 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-import './App.css'
+//import './App.css'
 import index from './index.css'
 import Navbar from './components/Navbar'
 import NavbarSmall from './components/NavbarSmall'
 import Profile from './components/Profile'
 import Footer from './components/Footer'
 
-function App() {
+export default function App() {
   return (
+    
     <>
+    
     <Navbar />
       <NavbarSmall />
       <Profile />
@@ -51,4 +53,3 @@ function App() {
   )
 }
 
-export default App

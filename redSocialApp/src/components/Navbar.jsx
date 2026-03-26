@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+export default function Navbar() {
 return (
     <div className="w3-top">
     <div className="w3-bar w3-theme-d2 w3-left-align w3-large">
@@ -25,5 +25,3 @@ return (
    
   )
 }
-
-export default Navbar;

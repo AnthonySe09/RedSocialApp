@@ -1,6 +1,6 @@
 import React from "react";
 
-function Accordion() {
+export default function Accordion() {
   return (
     <div className="w3-card w3-round">
       <div className="w3-white">
@@ -48,5 +48,3 @@ function Accordion() {
     </div>
   );
 }
-
-export default Accordion;
